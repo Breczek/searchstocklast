@@ -1,0 +1,20 @@
+/vendor/
+/.phpunit.cache/
+/.phpunit.result.cache
+
+# System / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+credentials*
+*secret*.json

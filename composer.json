@@ -1,0 +1,21 @@
+{
+  "name": "breczek/search-stock-last",
+  "description": "Development tooling for the Search Stock Last PrestaShop module",
+  "type": "project",
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^12.5.8",
+    "squizlabs/php_codesniffer": "^4.0.2"
+  },
+  "scripts": {
+    "test:unit": "phpunit --configuration phpunit.xml.dist",
+    "test:cs": "phpcs --standard=phpcs.xml.dist",
+    "test": [
+      "@test:cs",
+      "@test:unit"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>searchstocklast</name>
+  <displayName><![CDATA[Search: unavailable products last]]></displayName>
+  <version><![CDATA[1.0.0]]></version>
+  <description><![CDATA[Keeps unavailable products after purchasable products in faceted search results.]]></description>
+  <author><![CDATA[Marcin Bręczewski]]></author>
+  <tab><![CDATA[search_filter]]></tab>
+  <is_configurable>1</is_configurable>
+  <need_instance>0</need_instance>
+</module>
